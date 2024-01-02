@@ -1,18 +1,13 @@
-# fly.toml app configuration file generated for renreactivities on 2023-12-31T15:38:21+08:00
+# fly.toml app configuration file generated for renreactivities on 2023-12-31T15:59:55+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = "renreactivities"
-primary_region = "ams"
+primary_region = "cdg"
 
 [build]
   image = "racuin93/reactivities:latest"
-
-[env]
-  ASPNETCORE_URLS = "http://+:8080"
-  Cloudinary__ApiKey = "511199779647151"
-  Cloudinary__CloudName = "dj1sbvlzn"
 
 [http_service]
   internal_port = 8080
