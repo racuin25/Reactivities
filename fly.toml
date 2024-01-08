@@ -13,6 +13,7 @@ primary_region = "ams"
   ASPNETCORE_URLS = "http://+:8080"
   Cloudinary__ApiKey = "511199779647151"
   Cloudinary__CloudName = "dj1sbvlzn"
+  SendGrid__User = "racuin93"
 
 [http_service]
   internal_port = 8080
