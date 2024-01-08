@@ -114,7 +114,7 @@ const Account = {
   refreshToken: () => requests.post<User>("/account/refreshToken", {}),
   verifyEmail: (token: string, email: string) =>
     requests.post<void>(
-      `/account/verifyEmail?token${token}&email=${email}`,
+      `/account/verifyEmail?token=${token}&email=${email}`,
       {}
     ),
   resendEmailConfirm: (email: string) =>
